@@ -45,11 +45,14 @@ This repository requires a running MLFLOW instance for reporting and Dropbox as 
 ## Data
 
 We make use of the _UKP ArgMin_ dataset [Stab et al. 2018](https://aclanthology.org/D18-1402) and the _WTWT_ dataset [Conforti et al. 2020](conforti-etal-2020-will).
-Once you have obtained both datasets, put them in the `data` folder. 
-If you do not want to parse the data by your own, contact us and we will share the probes with you when you got access to the datasets.
+These datasets are freely available but you need to request _UKP ArgMin_ [here](https://tudatalib.ulb.tu-darmstadt.de/handle/tudatalib/2345).
+Once you have obtained both datasets, put them in the `data` folder.
+**Note**, if you do not want to parse the data by your own, contact us and we will share the parsed probing dataset with you as soon you got data access.
+
 
 ## Generate probing tasks
 After generating the probing tasks you will find them in the `probes` folder.
+
 To generate the Cross-Topic probing task, run the following commands:
 
 ```
