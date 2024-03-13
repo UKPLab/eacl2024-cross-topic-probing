@@ -104,3 +104,15 @@ To run the third experiment, a fine-tuned model (fold=0, seed=0) - like `bert-ba
 ```
 $ evolution-dropbox.py --task ukp-argmin --model_name bert-base-uncased-ft-ukp-argmin-0-0 --seed 0 --fold 0 
 ```
+
+## Citation
+```
+@misc{waldis2024dive,
+      title={Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization}, 
+      author={Andreas Waldis and Yufang Hou and Iryna Gurevych},
+      year={2024},
+      eprint={2402.01375},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
