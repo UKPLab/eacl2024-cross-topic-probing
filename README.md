@@ -25,7 +25,6 @@ Don't hesitate to e-mail us or report an issue if something is broken (and it sh
 > This repository contains experimental software and is published for the sole purpose of giving additional background details on the respective publication.
 
 ## Project structure
-**(change this as needed!)**
 
 * `data/` -- directory for the data
 * `probes/` -- directory for the data
@@ -40,7 +39,7 @@ This repository requires a running MLFLOW instance for reporting and Dropbox as 
 ## Data
 
 We make use of the _UKP ArgMin_ dataset [Stab et al. 2018](https://aclanthology.org/D18-1402) and the _WTWT_ dataset [Conforti et al. 2020](conforti-etal-2020-will).
-Once you have obtained both datasets, put them in the `folder` folder.
+Once you have obtained both datasets, put them in the `data` folder. If you do not want to parse the data by your own, contact us and we will share the probing datasets with you.
 
 ## Generate probing tasks
 To generate the Cross-Topic probing task, run the following commands:
