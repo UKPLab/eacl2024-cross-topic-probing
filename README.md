@@ -27,21 +27,29 @@ Don't hesitate to e-mail us or report an issue if something is broken (and it sh
 ## Project structure
 
 * `data/` -- directory for the data
-* `probes/` -- directory for the data
+* `probes/` -- directory for the probes
 * `src` -- contains all necessary python files 
 
-## Requirements
+## Setup and Requirements
 
 This repository requires Python3.6 or higher; further requirements can be found in the requirements.txt. 
+Install them with the following command:
+
+```
+pip install -r requirements.txt
+```
+
 Further, it need the spacy model `en_core_web_sm`.
 This repository requires a running MLFLOW instance for reporting and Dropbox as storage for computed models. Please define the corresponding URL and Dropbox auth-token in the file `src/defs/default_config.py`
 
 ## Data
 
 We make use of the _UKP ArgMin_ dataset [Stab et al. 2018](https://aclanthology.org/D18-1402) and the _WTWT_ dataset [Conforti et al. 2020](conforti-etal-2020-will).
-Once you have obtained both datasets, put them in the `data` folder. If you do not want to parse the data by your own, contact us and we will share the probing datasets with you.
+Once you have obtained both datasets, put them in the `data` folder. 
+If you do not want to parse the data by your own, contact us and we will share the probes with you when you got access to the datasets.
 
 ## Generate probing tasks
+After generating the probing tasks you will find them in the `probes` folder.
 To generate the Cross-Topic probing task, run the following commands:
 
 ```
