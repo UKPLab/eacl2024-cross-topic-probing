@@ -117,12 +117,21 @@ $ evolution-dropbox.py --task ukp-argmin --model_name bert-base-uncased-ft-ukp-a
 
 ## Citation
 ```
-@misc{waldis2024dive,
-      title={Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization}, 
-      author={Andreas Waldis and Yufang Hou and Iryna Gurevych},
-      year={2024},
-      eprint={2402.01375},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@inproceedings{waldis-etal-2024-dive,
+    title = "Dive into the Chasm: Probing the Gap between In- and Cross-Topic Generalization",
+    author = "Waldis, Andreas  and
+      Hou, Yufang  and
+      Gurevych, Iryna",
+    editor = "Graham, Yvette  and
+      Purver, Matthew",
+    booktitle = "Findings of the Association for Computational Linguistics: EACL 2024",
+    month = mar,
+    year = "2024",
+    address = "St. Julian{'}s, Malta",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-eacl.146",
+    pages = "2197--2214",
+    abstract = "Pre-trained language models (PLMs) perform well in In-Topic setups, where training and testing data come from the same topics. However, they face challenges in Cross-Topic scenarios where testing data is derived from distinct topics. This paper analyzes various PLMs with three probing-based experiments to better understand the reasons behind such generalization gaps. For the first time, we demonstrate that the extent of these generalization gaps and the sensitivity to token-level interventions vary significantly across PLMs. By evaluating large language models (LLMs), we show the usefulness of our analysis for these recent models. Overall, we observe diverse pre-training objectives and architectural regularization contribute to more robust PLMs and mitigate generalization gaps. Our research contributes to a deeper understanding and comparison of language models across different generalization scenarios.",
 }
+
 ```
